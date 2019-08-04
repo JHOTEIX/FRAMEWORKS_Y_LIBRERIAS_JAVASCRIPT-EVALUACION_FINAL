@@ -1,9 +1,9 @@
 //punto 1. cambia el color del titulo y alterna 
 function colorBlink(selector) {
 	setInterval(function(){ 
-	$('.main-titulo').css('color',' #fff');  // Alterna el color cada 0.5 seg
+	$('.main-titulo').css('color',' #fff');  // Alterna la Clase cada 2 Segundos 
 	setTimeout(function(){
-		$('.main-titulo').css('color',' #DCFF0E'); // Devuelve el colo rcada cada 0.5 Segundos 
+		$('.main-titulo').css('color',' #DCFF0E'); // Devuelve la Clase cada 1 Segundos 
 	},500)
  },1000);
 }
@@ -368,3 +368,4 @@ function initGame() {
 $(function() {
 	initGame();
 });
+
